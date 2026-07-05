@@ -34,6 +34,12 @@ namespace music_list
 
             Music music = new Music(textTitle.Text, textArtist.Text, textAlbum.Text, year, myRating);
             all_Music.Add(music);
+            this.Close();
+        }
+
+        private void Cancel_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
