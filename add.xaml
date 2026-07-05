@@ -24,7 +24,7 @@
 
 
 
-        <Button x:Name="Add_Find" Content="Add" Canvas.Left="71" Canvas.Top="248"  Width="150" Height="30"  HorizontalAlignment="Left" VerticalAlignment="Top" Click="Add_Find_Click" />
+        <Button x:Name="Add_Find" Content="Add" Canvas.Left="71" Canvas.Top="248"  Width="150" Height="30"  HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
 
 
