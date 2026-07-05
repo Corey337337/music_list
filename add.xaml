@@ -1,0 +1,32 @@
+﻿<Window x:Class="music_list.add"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:music_list"
+        mc:Ignorable="d"
+        Title="add" Height="400" Width="300">
+    <Canvas>
+        <TextBlock Text="Title:" Canvas.Left="29" Canvas.Top="45" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="textTitle" Width="150" Canvas.Left="121" Canvas.Top="45" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+        <TextBlock Text="Artist:" Canvas.Left="29" Canvas.Top="83" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="textArtist" Width="150" Canvas.Left="121" Canvas.Top="83" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+        <TextBlock Text="Album:" Canvas.Left="29" Canvas.Top="121" FontSize="14" RenderTransformOrigin="0.644,-0.741" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="textAlbum" Width="150" Canvas.Left="121" Canvas.Top="121" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+        <TextBlock Text="Year:" Canvas.Left="29" Canvas.Top="160" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="textYear" Width="150" Canvas.Left="121" Canvas.Top="160" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+        <TextBlock Text="MyRating:" Canvas.Left="29" Canvas.Top="201" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="textMyRating" Width="150" Canvas.Left="121" Canvas.Top="201" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+
+
+        <Button x:Name="Add_Find" Content="Add" Canvas.Left="71" Canvas.Top="248"  Width="150" Height="30"  HorizontalAlignment="Left" VerticalAlignment="Top" Click="Add_Find_Click" />
+
+
+
+    </Canvas>
+</Window>
