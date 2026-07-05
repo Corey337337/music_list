@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="400">
     <Canvas>
-        <ListView x:Name="MusicListView" Height="292" Width="400" HorizontalAlignment="Center" VerticalAlignment="Top" >
+        <ListView x:Name="MusicListView" Height="292" Width="399" HorizontalAlignment="Center" VerticalAlignment="Center" >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
@@ -28,6 +28,7 @@
         </ListView>
 
         <Button x:Name="Add" Content="Add Music" Canvas.Left="27" Canvas.Top="410"  Width="150" Height="55" Click="Add_Click" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Button x:Name="Delete" Content="Delete Music" Canvas.Left="222" Canvas.Top="410"  Width="150" Height="55" Click="Delete_Click" HorizontalAlignment="Left" VerticalAlignment="Center" />
 
 
     </Canvas>

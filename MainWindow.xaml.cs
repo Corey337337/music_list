@@ -56,5 +56,10 @@ namespace music_list
             newWindow.all_Music = allMusic; 
             newWindow.ShowDialog();
         }
+
+        private void Delete_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
