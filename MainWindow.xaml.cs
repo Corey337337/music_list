@@ -52,7 +52,8 @@ namespace music_list
 
         private void Add_Click(object sender, RoutedEventArgs e)
         {
-
+            add newWindow = new add();
+            newWindow.ShowDialog();
         }
     }
 }
