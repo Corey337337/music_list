@@ -26,6 +26,7 @@
 
         <Button x:Name="Add_Music" Content="Add" Canvas.Left="71" Canvas.Top="248"  Width="150" Height="30"  HorizontalAlignment="Left" VerticalAlignment="Top" Click="Add_Music_Click"/>
 
+        <Button x:Name="Cancel" Content="Cancel" Canvas.Left="71" Canvas.Top="288"  Width="150" Height="30"  HorizontalAlignment="Left" VerticalAlignment="Top" Click="Cancel_Click"/>
 
 
     </Canvas>
